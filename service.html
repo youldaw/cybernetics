@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="libs/bootstrap5/bootstrap.min.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" media="screen">
+		<link rel="stylesheet icon" type="text/css" href="css/style.css" media="screen">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Title</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container-fluid">
+				<div class="page-lines">
+					<span class="line line-1"></span>
+					<span class="line line-2"></span>
+					<span class="line line-3"></span>
+				</div>
+			</div>
+
+			
+			<header class="header">
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-lg">
+					<a class="navbar-brand" href="index.html">
+						<span><img src="images/logo.svg" alt=""></span>
+					</a>
+
+					<div class="navbar-collapse">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">О компании</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="service-all.html">Услуги</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="cases.html">Кейсы</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+						<div class="head-right">
+							<a href="#" class="purple-btn">Связаться с нами</a>
+							<div class="mob">
+								<button class="menu-opener">
+									<span class="one"></span>
+									<span class="two"></span>
+									<span class="three"></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</nav>
+				</div>
+			</header>
+
+			<main class="main">
+				<section class="service-inner">
+                    <div class="container">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Услуги</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Разработка электроники</li>
+                            </ol>
+                        </nav>
+                        <div class="title py-8">
+                            <h2 class="h2">Разрабатываем электронику от идеи и прототипа до серийного производства и внедрения.</h2>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="service-banner">
+                    <div class="container-fluid">
+                        <div class="service-banner__block">
+                            <div class="service-banner__bg">
+                                <img src="images/service-bg.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2 empty-col"></div>
+                                <div class="col-lg-4">
+                                    <div class="service-banner__text">
+                                        <p class="text-default">Реализуем ваш проект с нуля: анализируем концепцию, проектируем и изготавливаем прототипы печатных плат, разрабатываем встроенное и прикладное ПО на C/C++ и Qt. Протестируем устройство и подготовим документацию для серийного производства.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="service-info">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 offset-lg-2">
+                                <div class="info-block">
+                                    <div class="title py-8">
+                                        <h3 class="h3"><span class="blue-text">Объединяем инженерию и программное обеспечение:</span> проектируем электронику, разрабатываем ПО и облачные сервисы для управления устройствами.</h3>
+                                    </div>
+
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h4 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    <span class="text">Силовая электроника</span>
+                                                    <img src="images/plus-icon.svg" alt="">
+                                                </button>
+                                            </h4>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Проектируем силовую электронику для устройств, используя современные транзисторы MOSFET, IGBT, GaN. Разрабатываем зарядные устройства, преобразователи энергии, системы управления электродвигателями, источники питания, решения для мониторинга и хранения энергии. От схемотехники до программного обеспечения — создаем модули средней и высокой мощности, готовые к интеграции, стабильной работе и масштабированию.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h4 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <span class="text">Проектирование печатных плат</span>
+                                                    <img src="images/plus-icon.svg" alt="">
+                                                </button>
+                                            </h4>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Проектируем силовую электронику для устройств, используя современные транзисторы MOSFET, IGBT, GaN. Разрабатываем зарядные устройства, преобразователи энергии, системы управления электродвигателями, источники питания, решения для мониторинга и хранения энергии. От схемотехники до программного обеспечения — создаем модули средней и высокой мощности, готовые к интеграции, стабильной работе и масштабированию.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h4 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <span class="text">Разработка электронных модулей</span>
+                                                    <img src="images/plus-icon.svg" alt="">
+                                                </button>
+                                            </h4>
+                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Проектируем силовую электронику для устройств, используя современные транзисторы MOSFET, IGBT, GaN. Разрабатываем зарядные устройства, преобразователи энергии, системы управления электродвигателями, источники питания, решения для мониторинга и хранения энергии. От схемотехники до программного обеспечения — создаем модули средней и высокой мощности, готовые к интеграции, стабильной работе и масштабированию.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="info-items">
+                                    <div class="title py-8">
+                                        <h3 class="h3">В проектах используем проверенные российские и зарубежные компоненты. К выбору элементной базы подходим индивидуально, исходя из особенностей проекта.</h3>
+                                    </div>
+                                    <div class="row rov-10 py-8">
+                                        <div class="col-lg-6">
+                                            <div class="info-col">
+                                                <h2 class="h2">01</h2>
+                                                <p class="text-default">Решаем все инженерные задачи в одном месте: разработка, прототипирование, производство.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="info-col">
+                                                <h2 class="h2">02</h2>
+                                                <p class="text-default">Проектируем в соответствии с требованиями и международными стандартами.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="info-col">
+                                                <h2 class="h2">03</h2>
+                                                <p class="text-default">Используем проверенные компоненты и надежные решения.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="info-col">
+                                                <h2 class="h2">04</h2>
+                                                <p class="text-default">Беремся за работу, только если можем гарантировать результат.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="works-sec">
+                    <div class="container">
+                        <div class="works-block">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="title py-8">
+                                        <h2 class="h2">Как мы работаем</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mx-auto">
+                                    <div class="works-text">
+                                        <p>Начинаем с концепции и экспертизы, формализуем требования, затем переходим к разработке электроники и ПО, готовим образцы и оснастку, ставим продукт на производство и сопровождаем массовый выпуск с контролем качества.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="py-8">
+                            <div class="row rov-10">
+                                <div class="col-lg-3">
+                                    <div class="works-items">
+                                        <h4 class="h4">
+                                            Проектируем
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.51465 12H20.4852M20.4852 12L11.9999 20.4853M20.4852 12L11.9999 3.51472" stroke="#626266" stroke-width="2"/>
+                                            </svg>
+                                        </h4>
+                                        <p>Делаем схемы, платы, прошивки, backend и интерфейсы.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="works-items">
+                                        <h4 class="h4">
+                                            Исследуем
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.51465 12H20.4852M20.4852 12L11.9999 20.4853M20.4852 12L11.9999 3.51472" stroke="#626266" stroke-width="2"/>
+                                            </svg>
+                                        </h4>
+                                        <p>Изучаем предметную область, ограничения, сценарии работы.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="works-items">
+                                        <h4 class="h4">
+                                            Проверяем
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.51465 12H20.4852M20.4852 12L11.9999 20.4853M20.4852 12L11.9999 3.51472" stroke="#626266" stroke-width="2"/>
+                                            </svg>
+                                        </h4>
+                                        <p>Собираем прототипы, прогоняем тесты, моделируем нагрузки.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="works-items">
+                                        <h4 class="h4">
+                                            Запускаем серию
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.51465 12H20.4852M20.4852 12L11.9999 20.4853M20.4852 12L11.9999 3.51472" stroke="#626266" stroke-width="2"/>
+                                            </svg>
+                                        </h4>
+                                        <p>Готовим документацию, запускаем серию, контролируем качество.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cases-sec">
+                    <div class="container">
+                        <div class="title">
+                            <h2 class="h2 py-8">Кейсы</h2>
+                        </div>
+
+                        <div class="row rov-10 py-8">
+                            <div class="col-xl-3 col-sm-6">
+                                <a href="#" class="case-block">
+                                    <img src="images/case-bg.png" alt="">
+                                    <div class="case-inner">
+                                        <h4 class="h4">Умная теплая мойка самообслуживания</h4>
+                                        <span>150bar: Полная автоматизация, облачная система управления, мобильное приложение, личный кабинет владельца</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <a href="#" class="case-block">
+                                    <img src="images/case-bg.png" alt="">
+                                    <div class="case-inner">
+                                        <h4 class="h4">Умная теплая мойка самообслуживания</h4>
+                                        <span>150bar: Полная автоматизация, облачная система управления, мобильное приложение, личный кабинет владельца</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <a href="#" class="case-block">
+                                    <img src="images/case-bg.png" alt="">
+                                    <div class="case-inner">
+                                        <h4 class="h4">Умная теплая мойка самообслуживания</h4>
+                                        <span>150bar: Полная автоматизация, облачная система управления, мобильное приложение, личный кабинет владельца</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <a href="#" class="case-block">
+                                    <img src="images/case-bg.png" alt="">
+                                    <div class="case-inner">
+                                        <h4 class="h4">Умная теплая мойка самообслуживания</h4>
+                                        <span>150bar: Полная автоматизация, облачная система управления, мобильное приложение, личный кабинет владельца</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+				<section class="tender-sec">
+					<div class="container-fluid">
+						<div class="py-8">
+							<div class="tender-block black">
+								<div class="row justify-center">
+									<div class="col-xl-10">
+										<div class="tender-block__inner">
+											<div class="tender-block__title">
+												<span class="h1">Расскажите <br> о своей задаче</span>
+											</div>
+											<div class="tender-block__right">
+												<p class="text-default">Мы разрабатываем электронику и ПО под конкретные требования. Напишите нам — подберём формат работы.</p>
+												<a href="#" class="purple-btn">Написать нам</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-block">
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="ftr-logo py-8">
+									<img src="images/footer-logo.svg" alt="">
+									<div class="ftr-text">
+										<span>© 2025 Все права защищены.</span>
+										<a href="#">Политика конфиденциальности</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-5">
+								<div class="ftr-menu">
+									<a href="about.html">О компании</a>
+									<a href="service-all.html">Услуги</a>
+									<a href="cases.html">Кейсы</a>
+									<a href="contacts.html">Контакты</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="marquee">
+					<div class="marquee-track">
+						<div class="marquee-inner">
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+						</div>
+
+						<div class="marquee-inner">
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="js/jquery-3.7.0.min.js"></script>
+		<script src="libs/bootstrap5/popper.js"></script>
+		<script src="libs/bootstrap5/bootstrap.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

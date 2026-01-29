@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="libs/bootstrap5/bootstrap.min.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" media="screen">
+		<link rel="stylesheet icon" type="text/css" href="css/style.css" media="screen">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Title</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container-fluid">
+				<div class="page-lines">
+					<span class="line line-1"></span>
+					<span class="line line-2"></span>
+					<span class="line line-3"></span>
+				</div>
+			</div>
+
+			
+			<header class="header">
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-lg">
+					<a class="navbar-brand" href="index.html">
+						<span><img src="images/logo.svg" alt=""></span>
+					</a>
+
+					<div class="navbar-collapse">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">О компании</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="service-all.html">Услуги</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="cases.html">Кейсы</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+						<div class="head-right">
+							<a href="#" class="purple-btn">Связаться с нами</a>
+							<div class="mob">
+								<button class="menu-opener">
+									<span class="one"></span>
+									<span class="two"></span>
+									<span class="three"></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</nav>
+				</div>
+			</header>
+
+			<main class="main">
+				<section class="contacts-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="title">
+                                    <h1 class="h1">Связаться с нами</h1>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-8 ml-auto">
+                                        <form action="#" id="contacts-form__id">
+                                            <div class="contacts-form">
+                                                <div class="form-group name">
+                                                    <input type="text" name="name" placeholder="Фамилия Имя Отчество" required>
+                                                </div>
+                                                <div class="form-group name-company">
+                                                    <input type="text" name="name-company" placeholder="Название вашей компании" required>
+                                                </div>
+                                                <div class="form-group tel">
+                                                    <input type="tel" name="phone" placeholder="+7 (923) 000-17-18" required>
+                                                </div>
+                                                <div class="form-group message">
+                                                    <textarea name="question" placeholder="Задайте свой вопрос"></textarea>
+                                                </div>
+                                                <div class="contact-form__btn">
+                                                    <p>Нажимая на кнопку «Отправить», вы даете согласие на обработку персональных данных и соглашаетесь с Политикой конфиденциальности</p>
+                                                    <button type="submit" class="purple-btn">Отправить</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 ml-auto">
+                                <div class="map-block">
+                                    <div id="map"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="details-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="subtitle">
+                                    <p class="subtitle-text">Реквизиты</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="details-contact">
+                                    <p class="text-default">Общество с ограниченной ответственностью «Кибернетикс»</p>
+                                    <address>656043, Алтайский край, г. Барнаул, <br> ул. Пролетарская, д. 117</address>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mx-auto">
+                                <div class="details-block">
+                                    <div class="details-item">
+                                        <p>ИНН:</p>
+                                        <span>2231004239</span>
+                                    </div>
+                                    <div class="details-item">
+                                        <p>ОГРН:</p>
+                                        <span>1022200511343</span>
+                                    </div>
+                                    <div class="details-item">
+                                        <p>КПП</p>
+                                        <span>222501001</span>
+                                    </div>
+                                    <div class="details-item">
+                                        <p>Банк</p>
+                                        <span>Московский филиал АО КБ «Модульбанк»</span>
+                                    </div>
+                                    <div class="details-item">
+                                        <p>р/с</p>
+                                        <span>40702810570010340649</span>
+                                    </div>
+                                    <div class="details-item">
+                                        <p>к/с</p>
+                                        <span>30101810645250000092</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+				<section class="tender-sec">
+					<div class="container-fluid">
+						<div class="py-8">
+							<div class="tender-block black">
+								<div class="row justify-center">
+									<div class="col-xl-10">
+										<div class="tender-block__inner">
+											<div class="tender-block__title">
+												<span class="h1">Расскажите <br> о своей задаче</span>
+											</div>
+											<div class="tender-block__right">
+												<p class="text-default">Мы разрабатываем электронику и ПО под конкретные требования. Напишите нам — подберём формат работы.</p>
+												<a href="#" class="purple-btn">Написать нам</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-block">
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="ftr-logo py-8">
+									<img src="images/footer-logo.svg" alt="">
+									<div class="ftr-text">
+										<span>© 2025 Все права защищены.</span>
+										<a href="#">Политика конфиденциальности</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-5">
+								<div class="ftr-menu">
+									<a href="about.html">О компании</a>
+									<a href="service-all.html">Услуги</a>
+									<a href="cases.html">Кейсы</a>
+									<a href="contacts.html">Контакты</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="marquee">
+					<div class="marquee-track">
+						<div class="marquee-inner">
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+						</div>
+
+						<div class="marquee-inner">
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+							<span><img src="images/marquee-icon.svg" alt=""></span>
+							<span><img src="images/marquee-text.svg" alt=""></span>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="js/jquery-3.7.0.min.js"></script>
+		<script src="libs/bootstrap5/popper.js"></script>
+		<script src="libs/bootstrap5/bootstrap.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

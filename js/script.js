@@ -37,3 +37,26 @@ $(function () {
 
 });
 
+$(function () {
+    ymaps.ready(function () {
+
+        var map = new ymaps.Map('map', {
+            center: [53.347996, 83.778367],
+            zoom: 16,
+            controls: []
+        });
+
+        var placemark = new ymaps.Placemark(
+            [53.347996, 83.778367],
+            {},
+            {
+                iconLayout: 'default#image',
+                iconImageHref: 'images/map-pin.png',
+                iconImageSize: [56, 56],
+                iconImageOffset: [-25, -50]
+            }
+        );
+
+        map.geoObjects.add(placemark);
+    });
+});
