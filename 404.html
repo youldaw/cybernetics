@@ -12,7 +12,7 @@
 	<body>
 		<div class="wrapper">
 			<div class="container-fluid">
-				<div class="page-lines">
+				<div class="page-lines not-line">
 					<span class="line line-1"></span>
 					<span class="line line-2"></span>
 					<span class="line line-3"></span>
@@ -39,7 +39,7 @@
 								<a class="nav-link" href="cases.html">Кейсы</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" href="contacts.html">Контакты</a>
+								<a class="nav-link" href="contacts.html">Контакты</a>
 							</li>
 
 							<div class="mob">
@@ -62,115 +62,28 @@
 			</header>
 
 			<main class="main">
-				<section class="contacts-sec">
+				<section class="not-found">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="title">
-                                    <h1 class="h1">Связаться с нами</h1>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-8 ml-auto">
-                                        <form action="#" id="contacts-form__id">
-                                            <div class="contacts-form">
-                                                <div class="form-group name">
-                                                    <input type="text" name="name" placeholder="Фамилия Имя Отчество" required>
-                                                </div>
-                                                <div class="form-group name-company">
-                                                    <input type="text" name="name-company" placeholder="Название вашей компании" required>
-                                                </div>
-                                                <div class="form-group tel">
-                                                    <input type="tel" name="phone" placeholder="+7 (923) 000-17-18" required>
-                                                </div>
-                                                <div class="form-group message">
-                                                    <textarea name="question" placeholder="Задайте свой вопрос"></textarea>
-                                                </div>
-                                                <div class="contact-form__btn">
-                                                    <p>Нажимая на кнопку «Отправить», вы даете согласие на обработку персональных данных и соглашаетесь с Политикой конфиденциальности</p>
-                                                    <button type="submit" class="purple-btn">Отправить</button>
-                                                </div>
-                                            </div>
-                                        </form>
+                            <div class="col-lg-7 offset-lg-4">
+                                <div class="not-found__block">
+                                    <div class="title">
+                                        <h2 class="h2">Кажется что-то пошло не так.</h2>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-5 ml-auto">
-                                <div class="map-block">
-                                    <div id="map"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="details-sec">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <div class="subtitle">
-                                    <p class="subtitle-text">Реквизиты</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="details-contact">
-                                    <p class="text-default">Общество с ограниченной ответственностью «Кибернетикс»</p>
-                                    <address>656043, Алтайский край, г. Барнаул, <br> ул. Пролетарская, д. 117</address>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mx-auto">
-                                <div class="details-block">
-                                    <div class="details-item">
-                                        <p>ИНН:</p>
-                                        <span>2231004239</span>
-                                    </div>
-                                    <div class="details-item">
-                                        <p>ОГРН:</p>
-                                        <span>1022200511343</span>
-                                    </div>
-                                    <div class="details-item">
-                                        <p>КПП</p>
-                                        <span>222501001</span>
-                                    </div>
-                                    <div class="details-item">
-                                        <p>Банк</p>
-                                        <span>Московский филиал АО КБ «Модульбанк»</span>
-                                    </div>
-                                    <div class="details-item">
-                                        <p>р/с</p>
-                                        <span>40702810570010340649</span>
-                                    </div>
-                                    <div class="details-item">
-                                        <p>к/с</p>
-                                        <span>30101810645250000092</span>
+                                    <p class="text-default">Пожалуйста, вернитесь на главную.</p>
+                                    <div class="not-found__link py-8">
+                                        <a href="index.html" class="btn-link">
+                                            <span class="text">На главную</span>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M19.5 19H18.0769V6.92928L5.50618 19.5L4.5 18.4938L17.0707 5.9231H5V4.5H19.5V19Z" fill="#00E0FF"/>
+                                            </svg>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
-				<section class="tender-sec">
-					<div class="container-fluid">
-						<div class="py-8">
-							<div class="tender-block black">
-								<div class="row">
-									<div class="col-lg-5 mx-auto">
-										<div class="tender-block__title">
-											<span class="h1">Расскажите о своей задаче</span>
-										</div>
-									</div>
-									<div class="col-lg-4 mx-auto">
-										<div class="tender-block__right">
-											<p class="text-default">Мы разрабатываем электронику и ПО под конкретные требования. Напишите нам — подберём формат работы.</p>
-											<a href="#!" class="purple-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Написать нам</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
 			</main>
 
 			<footer class="footer">
@@ -226,7 +139,8 @@
 			</footer>
 		</div>
 
-		<!-- Modal -->
+
+        <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">

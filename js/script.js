@@ -5,7 +5,8 @@ $(function () {
     $('.menu-opener').on('click', function (e) {
         e.preventDefault();
         $(this).toggleClass('active');
-        $('.navbar').toggleClass('active');
+        $('header .navbar-nav').toggleClass('active');
+        $('body').toggleClass('no-scroll');
     });
 
     var swiper1 = new Swiper(".case-slider", {
@@ -14,26 +15,43 @@ $(function () {
         // centeredSlides: true,
         loop: true,
         speed: 1000,
-        // pagination: {
-        //     el: ".swiper-pagination",
-        //     clickable: true,
-        // },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-            640: {
+            320: {
                 slidesPerView: 1,
+                centeredSlides: true,
             },
-            768: {
-                slidesPerView: 1,
+            640: {
+                slidesPerView: 1.4,
+                centeredSlides: true,
+            },
+            769: {
+                slidesPerView: 2,
             },
             1024: {
                 slidesPerView: 2,
             },
         },
     });
+
+    var swiper2 = new Swiper(".case-slider__box", {
+        spaceBetween: 40,
+        slidesPerView: 1,
+        loop: false,
+        speed: 1000,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
 
 });
 

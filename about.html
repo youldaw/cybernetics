@@ -21,7 +21,7 @@
 			<header class="header">
 				<div class="container-fluid">
 					<nav class="navbar navbar-expand-lg">
-					<a class="navbar-brand" href="#!">
+					<a class="navbar-brand" href="index.html">
 						<span><img src="images/logo.svg" alt=""></span>
 					</a>
 
@@ -39,9 +39,13 @@
 							<li class="nav-item">
 								<a class="nav-link" href="contacts.html">Контакты</a>
 							</li>
+
+                            <div class="mob">
+								<a href="#!" class="purple-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Связаться с нами</a>
+							</div>
 						</ul>
 						<div class="head-right">
-							<a href="#" class="purple-btn">Связаться с нами</a>
+							<a href="#!" class="purple-btn pc" data-bs-toggle="modal" data-bs-target="#exampleModal">Связаться с нами</a>
 							<div class="mob">
 								<button class="menu-opener">
 									<span class="one"></span>
@@ -247,16 +251,16 @@
 					<div class="container-fluid">
 						<div class="py-8">
 							<div class="tender-block black">
-								<div class="row justify-center">
-									<div class="col-xl-10">
-										<div class="tender-block__inner">
-											<div class="tender-block__title">
-												<span class="h1">Расскажите <br> о своей задаче</span>
-											</div>
-											<div class="tender-block__right">
-												<p class="text-default">Мы разрабатываем электронику и ПО под конкретные требования. Напишите нам — подберём формат работы.</p>
-												<a href="#" class="purple-btn">Написать нам</a>
-											</div>
+								<div class="row">
+									<div class="col-lg-5 mx-auto">
+										<div class="tender-block__title">
+											<span class="h1">Расскажите о своей задаче</span>
+										</div>
+									</div>
+									<div class="col-lg-4 mx-auto">
+										<div class="tender-block__right">
+											<p class="text-default">Мы разрабатываем электронику и ПО под конкретные требования. Напишите нам — подберём формат работы.</p>
+											<a href="#!" class="purple-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Написать нам</a>
 										</div>
 									</div>
 								</div>
@@ -318,6 +322,44 @@
 				</div>
 			</footer>
 		</div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title h3" id="exampleModalLabel">Оставьте заявку</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.8943 6.16613L13.0607 11.9998L18.8943 17.8334L17.8336 18.8941L12 13.0604L6.16637 18.8941L5.10571 17.8334L10.9393 11.9998L5.10571 6.16613L6.16637 5.10547L12 10.9391L17.8336 5.10547L18.8943 6.16613Z" fill="#EDEDF2"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" id="modal-form__id">
+                            <div class="contacts-form">
+                                <div class="form-group name">
+                                    <input type="text" name="name" placeholder="Фамилия Имя Отчество" required="">
+                                </div>
+                                <div class="form-group name-company">
+                                    <input type="text" name="name-company" placeholder="Название вашей компании" required="">
+                                </div>
+                                <div class="form-group tel">
+                                    <input type="tel" name="phone" placeholder="+7 (923) 000-17-18" required="">
+                                </div>
+                                <div class="form-group message">
+                                    <textarea name="question" placeholder="Задайте свой вопрос"></textarea>
+                                </div>
+                                <div class="contact-form__btn">
+                                    <p>Нажимая на кнопку «Отправить», вы даете согласие на обработку персональных данных и соглашаетесь с Политикой конфиденциальности</p>
+                                    <button type="submit" class="purple-btn">Отправить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 		<script src="js/jquery-3.7.0.min.js"></script>
 		<script src="libs/bootstrap5/popper.js"></script>
